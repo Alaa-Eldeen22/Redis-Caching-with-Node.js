@@ -26,7 +26,7 @@ exports.getAllProducts = async () => {
 
 	// Store the fetched products in Redis cache for 180 seconds (3 minutes)
 	console.log('Cache Write: Storing fetched products in Redis (TTL: 180s)');
-	await redisClient.set('products', JSON.stringify(products), { EX: 30 });
+	await redisClient.set('products', JSON.stringify(products), { EX: 180 });
 
 	return products;
 };
