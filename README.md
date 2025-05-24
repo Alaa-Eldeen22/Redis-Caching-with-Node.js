@@ -158,4 +158,3 @@ This simulates 50 virtual users making 200 requests each — totaling 10,000 req
 ## 🙌 Acknowledgments
 
 Built with love to showcase the **real-world impact of caching**. Feel free to fork, improve, or use this project as a boilerplate for your own scalable backend systems.
-
